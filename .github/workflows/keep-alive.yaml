@@ -15,6 +15,6 @@ jobs:
       - run: date > date.txt
       - uses: stefanzweifel/git-auto-commit-action@v5
       - name: Make HTTP request The wild oasis. Confirm DB is active
-      - run: curl -L https://the-wild-oasis-kb.vercel.app/cabins
+        run: curl -L https://the-wild-oasis-kb.vercel.app/cabins
       - name: Make HTTP request to Wether-kids app. Confirm DB is active
-      - run: curl -L https://weather-kids.netlify.app/ping
+        run: curl -L https://weather-kids.netlify.app/ping
